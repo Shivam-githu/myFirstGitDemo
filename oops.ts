@@ -33,4 +33,6 @@ export class Position extends Employee{
     }
 }
 var posObj=new Position(101,"Narendra",40000,"Java Developer","Hyderabad");
+var posObj=new Position(101,"Narendra",40000,"Java Developer","Hyderabad");
+
 posObj.displayDetail();
