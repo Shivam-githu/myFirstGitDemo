@@ -32,6 +32,5 @@ export class Position extends Employee{
         console.log(`EmpId: ${this.empId},EmpName: ${this.empName},Salary: ${this.salary},Post: ${this.post},Address:${this.address}`);
     }
 }
-
-// var posObj=new Position(101,"Narendra",40000,"Java Developer","Hyderabad");
-// posObj.displayDetail();
+var posObj=new Position(101,"Narendra",40000,"Java Developer","Hyderabad");
+posObj.displayDetail();
